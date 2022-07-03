@@ -1,0 +1,192 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #ddd;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+
+
+}
+
+
+
+.container-img {
+    display: flex;
+    justify-content: center;
+    margin-top: -70px;
+    margin-bottom: 2rem;
+    
+
+}
+
+.img {
+    width: 176px;
+    height: 172px;
+    border-radius: 20px;
+    border: #8dfcb2 double 9px;
+    
+}
+
+h1 {
+    text-decoration: underline;
+    text-shadow: 2px 2px 2px #0f8bff;
+}
+h2{
+    text-shadow: 2px 2px 2px #8dfcb2;  
+}
+
+.icons {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+
+}
+
+.icons>div {
+    width: 318px;
+    height: 86px;
+    margin: 0 auto;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.445);
+    border-radius: 18px;
+}
+
+.wpp {
+    background: #189D0E;
+    display: flex;
+    justify-content: center;
+    font-size: 27px;
+    line-height: 90px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.445);
+    border-radius: 18px;
+}
+
+.wpp1 a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.wpp:hover {
+    background: #68d460;
+    cursor: pointer;
+
+}
+
+
+.face {
+    background: #1977F3;
+    display: flex;
+    justify-content: center;
+    font-size: 27px;
+    line-height: 90px;
+    text-decoration: none;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.445);
+    border-radius: 18px;
+
+}
+
+.face1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.face:hover {
+    background: #5897eb;
+    cursor: pointer;
+}
+
+.link {
+    background: #007BB6;
+    display: flex;
+    justify-content: center;
+    font-size: 27px;
+    line-height: 90px;
+    text-decoration: none;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.445);
+    border-radius: 18px;
+}
+
+.link:hover {
+    background: #4abcf1;
+    cursor: pointer;
+
+}
+
+.link1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.git {
+    background: rgb(82, 81, 81);
+    display: flex;
+    justify-content: center;
+    font-size: 27px;
+    line-height: 90px;
+    text-decoration: none;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.445);
+    border-radius: 18px;
+}
+
+.git1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.git:hover {
+    background: rgb(56, 55, 55);
+    cursor: pointer;
+
+
+}
+.insta{
+    background: #DC4378;
+    display: flex;
+    justify-content: center;
+    font-size: 27px;
+    line-height: 90px;
+    text-decoration: none;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.445);
+    border-radius: 18px;
+}
+.insta:hover{
+    background: #BA3B9A;
+    cursor: pointer;
+}
+.insta1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.port {
+    background: rgb(248, 101, 47);
+    display: flex;
+    justify-content: center;
+    font-size: 27px;
+    line-height: 90px;
+    text-decoration: none;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.445);
+    border-radius: 18px;
+}
+
+.port1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.port:hover {
+    background: rgb(231, 176, 56);
+    cursor: pointer;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
